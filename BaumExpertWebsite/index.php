@@ -1,16 +1,16 @@
 <?php
 $name = "Marcel Baum";
-$title = "Oeffentlich bestellter und vereidigter Sachverstaendiger";
+$title = "Öffentlich bestellter und vereidigter Sachverständiger";
 $phone = "+49 (0) 123 456 789";
 $email = "info@marcel-baum-sv.de";
 $address = "Musterstrasse 12, 12345 Musterstadt";
 $services = [
-    ["icon"=>"fire","title"=>"Heizungsanlagen","desc"=>"Bewertung und Begutachtung von Heizungssystemen aller Art &ndash; von konventionellen Gas- und Oelheizungen bis hin zu modernen Waermepumpen und Fernwaermesystemen."],
-    ["icon"=>"drop","title"=>"Sanitaranlagen","desc"=>"Sachverstaendige Pruefung von Trinkwasser-, Abwasser- und Sanitaerinstallationen gemaess aktueller Normen und technischer Regelwerke (DIN, DVGW, VOB)."],
-    ["icon"=>"doc","title"=>"Gutachten &amp; Berichte","desc"=>"Erstellung gerichtsverwertbarer Gutachten fuer Privat- und Gewerbekunden, Versicherungen, Gerichte sowie oeffentliche Auftraggeber."],
-    ["icon"=>"scale","title"=>"Gerichtsgutachten","desc"=>"Als vereidigter Sachverstaendiger erstelle ich neutrale, rechtssichere Expertisen fuer Streitfaelle, Bauabnahmen und Schadensanalysen."],
-    ["icon"=>"search","title"=>"Schadensanalyse","desc"=>"Systematische Untersuchung von Schaeden an haustechnischen Anlagen mit Ursachenfeststellung und Empfehlungen zur Maengelbeseitigung."],
-    ["icon"=>"build","title"=>"Baubegleitung","desc"=>"Unabhaengige Qualitaetskontrolle bei Neubau und Sanierung von Heizungs- und Sanitaranlagen &ndash; von der Planung bis zur Abnahme."],
+    ["icon"=>"fire","title"=>"Heizungsanlagen","desc"=>"Bewertung und Begutachtung von Heizungssystemen aller Art &ndash; von konventionellen Gas- und Ölheizungen bis hin zu modernen Wärmepumpen und Fernwärmesystemen."],
+    ["icon"=>"drop","title"=>"Sanitaranlagen","desc"=>"Sachverständige Prüfung von Trinkwasser-, Abwasser- und Sanitärinstallationen gemäss aktueller Normen und technischer Regelwerke (DIN, DVGW, VOB)."],
+    ["icon"=>"doc","title"=>"Gutachten &amp; Berichte","desc"=>"Erstellung gerichtsverwertbarer Gutachten für Privat- und Gewerbekunden, Versicherungen, Gerichte sowie öffentliche Auftraggeber."],
+    ["icon"=>"scale","title"=>"Gerichtsgutachten","desc"=>"Als vereidigter Sachverständiger erstelle ich neutrale, rechtssichere Expertisen für Streitfälle, Bauabnahmen und Schadensanalysen."],
+    ["icon"=>"search","title"=>"Schadensanalyse","desc"=>"Systematische Untersuchung von Schäden an haustechnischen Anlagen mit Ursachenfeststellung und Empfehlungen zur Mängelbeseitigung."],
+    ["icon"=>"build","title"=>"Baubegleitung","desc"=>"Unabhängige Qualitätskontrolle bei Neubau und Sanierung von Heizungs- und Sanitaranlagen &ndash; von der Planung bis zur Abnahme."],
 ];
 $icons = ["fire"=>"&#128293;","drop"=>"&#128167;","doc"=>"&#128203;","scale"=>"&#9878;","search"=>"&#128269;","build"=>"&#127959;"];
 ?>
@@ -19,7 +19,7 @@ $icons = ["fire"=>"&#128293;","drop"=>"&#128167;","doc"=>"&#128203;","scale"=>"&
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><?= htmlspecialchars($name) ?> &ndash; Sachverstaendiger Heizung &amp; Sanitaer</title>
+<title><?= htmlspecialchars($name) ?> &ndash; Sachverständiger Heizung &amp; Sanitär</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -115,14 +115,14 @@ footer a:hover{color:var(--copper)}
   <div class="grid"></div>
   <div class="hi">
     <div>
-      <span class="badge">Sachverstaendigenbüro</span>
-      <h1><?= htmlspecialchars($name) ?><br><em>Heizung &amp; Sanitaer</em></h1>
-      <p class="hsub">Oeffentlich bestellt &middot; Vereidigt &middot; IHK-zertifiziert</p>
+      <span class="badge">Sachverständigenbüro</span>
+      <h1><?= htmlspecialchars($name) ?><br><em>Heizung &amp; Sanitär</em></h1>
+      <p class="hsub">öffentlich bestellt &middot; Vereidigt &middot; IHK-zertifiziert</p>
     </div>
     <div class="hcred">
       <strong>Zertifizierungen</strong>
-      IHK-zertifizierter Sachverstaendiger<br>
-      Oeffentlich bestellt und vereidigt<br>
+      IHK-zertifizierter Sachverständiger<br>
+      Öffentlich bestellt und vereidigt<br>
       DVGW-Fachkundenachweis<br>
       DIN EN ISO 17024
     </div>
@@ -135,19 +135,19 @@ footer a:hover{color:var(--copper)}
 
 <section class="about">
   <div class="about-l">
-    <div class="slabel">Ueber mich</div>
-    <h2>Unabhaengig.<br><em>Praezise.</em><br>Verlaesslich.</h2>
+    <div class="slabel">Über mich</div>
+    <h2>Unabhängig.<br><em>Präzise.</em><br>Verlässlich.</h2>
   </div>
   <div class="about-r">
-    <p>Seit ueber 20 Jahren bin ich als oeffentlich bestellter und vereidigter Sachverstaendiger fuer Heizungs- und Sanitaranlagen taetig &ndash; fuer Privatpersonen, Unternehmen und Gerichte.</p>
-    <p>Meine Gutachten sind fachlich fundiert, rechtssicher und verstaendlich formuliert. Ob Schadensbewertung, Abnahmepruefung oder gerichtliches Gutachten &ndash; ich biete eine neutrale, unabhaengige Expertenmeinung, auf die Sie sich verlassen koennen.</p>
-    <p>Als Mitglied relevanter Fachverbaende und mit kontinuierlicher Weiterbildung bleibe ich stets auf dem aktuellen Stand der Technik und Rechtslage.</p>
+    <p>Seit über 20 Jahren bin ich als öffentlich bestellter und vereidigter Sachverständiger für Heizungs- und Sanitaranlagen tätig &ndash; für Privatpersonen, Unternehmen und Gerichte.</p>
+    <p>Meine Gutachten sind fachlich fundiert, rechtssicher und verständlich formuliert. Ob Schadensbewertung, Abnahmeprüfung oder gerichtliches Gutachten &ndash; ich biete eine neutrale, unabhängige Expertenmeinung, auf die Sie sich verlassen können.</p>
+    <p>Als Mitglied relevanter Fachverbände und mit kontinuierlicher Weiterbildung bleibe ich stets auf dem aktuellen Stand der Technik und Rechtslage.</p>
     <div class="quals">
-      <div class="qi">Oeffentlich bestellt und vereidigt (IHK)</div>
+      <div class="qi">öffentlich bestellt und vereidigt (IHK)</div>
       <div class="qi">Meister des Installateur- und Heizungsbauerhandwerks</div>
-      <div class="qi">DVGW-zertifizierter Fachmann fuer Gasinstallationen</div>
-      <div class="qi">Mitglied im Bund der oeffentlich bestellten Sachverstaendigen</div>
-      <div class="qi">Gerichtlich anerkannt &ndash; bundesweit taetig</div>
+      <div class="qi">DVGW-zertifizierter Fachmann für Gasinstallationen</div>
+      <div class="qi">Mitglied im Bund der öffentlich bestellten Sachverständigen</div>
+      <div class="qi">Gerichtlich anerkannt &ndash; bundesweit tätig</div>
     </div>
   </div>
 </section>
@@ -173,20 +173,20 @@ footer a:hover{color:var(--copper)}
 <section class="nums">
   <div class="ni"><span class="nv">20+</span><span class="nl">Jahre Erfahrung</span></div>
   <div class="ni"><span class="nv">850+</span><span class="nl">Gutachten erstellt</span></div>
-  <div class="ni"><span class="nv">100%</span><span class="nl">Neutral &amp; unabhaengig</span></div>
+  <div class="ni"><span class="nv">100%</span><span class="nl">Neutral &amp; unabhängig</span></div>
   <div class="ni"><span class="nv">48h</span><span class="nl">Reaktionszeit</span></div>
 </section>
 
 <section class="contact" id="kontakt">
   <div class="contact-l">
     <div class="slabel">Kontakt</div>
-    <h2>Sprechen wir<br><em>ueber Ihr Anliegen</em></h2>
+    <h2>Sprechen wir<br><em>über Ihr Anliegen</em></h2>
     <p>Ich freue mich auf Ihre Anfrage. Ob dringende Schadensbegutachtung oder langfristige Projektbegleitung &ndash; nehmen Sie Kontakt auf.</p>
     <div class="cdetails">
       <div class="crow"><span class="clabel">Telefon</span><span class="cval"><a href="tel:+49123456789"><?= htmlspecialchars($phone) ?></a></span></div>
       <div class="crow"><span class="clabel">E-Mail</span><span class="cval"><a href="mailto:<?= htmlspecialchars($email) ?>"><?= htmlspecialchars($email) ?></a></span></div>
       <div class="crow"><span class="clabel">Adresse</span><span class="cval"><?= htmlspecialchars($address) ?></span></div>
-      <div class="crow"><span class="clabel">Buerozeiten</span><span class="cval">Mo&ndash;Fr: 08:00 &ndash; 17:00 Uhr</span></div>
+      <div class="crow"><span class="clabel">Bürozeiten</span><span class="cval">Mo&ndash;Fr: 08:00 &ndash; 17:00 Uhr</span></div>
     </div>
   </div>
   <div>
@@ -202,7 +202,7 @@ footer a:hover{color:var(--copper)}
 </section>
 
 <footer>
-  <p>&copy; <?= date('Y') ?> <?= htmlspecialchars($name) ?> &middot; Sachverstaendiger Heizung &amp; Sanitaer</p>
+  <p>&copy; <?= date('Y') ?> <?= htmlspecialchars($name) ?> &middot; Sachverständiger Heizung &amp; Sanitär</p>
   <p><a href="#">Impressum</a> &nbsp;&middot;&nbsp; <a href="#">Datenschutz</a></p>
 </footer>
 
